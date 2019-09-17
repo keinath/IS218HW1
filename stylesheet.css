@@ -1,0 +1,31 @@
+/* the styles for the elements */
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 120%;
+    text-align: justify;
+    width: 500px;
+    border: 15px solid darkcyan;
+    padding: 200px;
+    margin: 100px;
+    background-color: lightgray;
+}
+
+h1 {
+    text-indent: 0em;
+    font-size: 150%;
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 130%;
+    color: darkcyan;
+    text-align: center;
+}
+
+/* the styles for the footer */
+
+footer {
+    font-size: small;
+}
