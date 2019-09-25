@@ -54,6 +54,11 @@
 
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <script>
+            if("fname"=toString())
+                then(oninvalid)
+            else(errorCallback(Error))
+        </script>
 
         <br>
         <br>
@@ -61,6 +66,11 @@
 
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <script>
+            if("lname"=toString())
+                then(oninvalid)
+            else(errorCallback(Error))
+        </script>
 
         <br>
         <br>
@@ -68,6 +78,11 @@
 
         <label for="hometown">Hometown</label>
         <input type="text" id="hometown" name="hometown" placeholder="Your hometown..">
+        <script>
+            if("hometown"=toString())
+                then(oninvalid)
+            else(errorCallback(Error))
+        </script>
 
         <br>
         <br>
@@ -75,6 +90,11 @@
 
         <label for="major">Major</label>
         <input type="text" id="major" name="major" placeholder="Your major..">
+        <script>
+            if("major"=toString())
+                then(oninvalid)
+            else(errorCallback(Error))
+        </script>
 
         <br>
         <br>
@@ -87,10 +107,14 @@
         <br>
         <br>
 
-        <input type="submit" value="Subscribe">
+        <div class="clear">
+            <button type="reset" value="Reset">Cancel</button>
+            <input type="button" onclick="window.location.href = 'thankyou.html';" value="Subscribe"/>
+        </div>
 
     </form>
 </div>
+
 
 </body>
 
